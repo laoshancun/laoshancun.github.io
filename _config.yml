@@ -7,6 +7,7 @@ highlighter: rouge
 #markdown: redcarpet
 encoding: utf-8
 
+disqus: dbyll-ghost
 defaults:
   -
     scope:
