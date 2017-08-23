@@ -12,8 +12,9 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: "laoshancun's blog"
+      title: 
 
+title: "laoshancun's blog"
 description: 
 author:
   name: Laoshancun
