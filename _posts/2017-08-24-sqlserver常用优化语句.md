@@ -6,7 +6,7 @@ layout: post
 slug: "sqlserver-optimization"
 title: "sqlserver常用优化语句"
 wordpress_id: 2
-description: sqlserver常用优化，性能监测语句
+description: "sqlserver常用优化，性能监测语句"
 categories:
 - database
 tags:
