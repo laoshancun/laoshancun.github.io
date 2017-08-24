@@ -15,7 +15,7 @@ defaults:
     values:
       title: 
 
-title: "laoshancun's blog"
+name: "laoshancun's blog"
 description: 
 author:
   name: Laoshancun
