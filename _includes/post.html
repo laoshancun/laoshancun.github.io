@@ -74,7 +74,7 @@
 		<div>
       <section class="share col-sm-6">
         <h4 class="section-title">Share Post</h4>
-        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
+        <a class="btn btn-default btn-sm twitter" href="https://twitter.com/share?text={{page.title | encode}}{% if site.author.twitter%}&via={{site.author.twitter}}{% endif %}"
            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
           <i class="fa fa-twitter fa-lg"></i>
           Twitter
@@ -128,7 +128,7 @@
     {% for post in site.related_posts limit:3 %}
     <li>
       <h3>
-        <a href="http://laoshancun.github.io/{{ site.BASE_PATH }}/{{ post.url }}">
+        <a href="https://laoshancun.github.io/{{ site.BASE_PATH }}/{{ post.url }}">
           {{ post.title }}
           <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
         </a>
@@ -140,14 +140,14 @@
 
 
 <div id="disqus_thread"></div>
-<script>
+<script type="text/javascript">
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = '{{ page.title }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+	this.page.url = location.href;  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = '{{ page.title }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE

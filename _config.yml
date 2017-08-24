@@ -16,10 +16,10 @@ defaults:
       title: 
 
 name: "laoshancun's blog"
+domain: laoshancun.github.io
 description: 
 author:
   name: Laoshancun
-  email: laoshancun@foxmail.com
   github: laoshancun
   bio: lazy man
   email_md5: dc2ed0bacbd08548fe8950241fb129bc
